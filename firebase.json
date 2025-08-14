@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "randomvideo-b0b25",
+          "appId": "1:941591449824:android:fbb5d29bf3f7652ff10085",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "randomvideo-b0b25",
+          "configurations": {
+            "android": "1:941591449824:android:fbb5d29bf3f7652ff10085",
+            "ios": "1:941591449824:ios:5150a141f35ef0cbf10085",
+            "web": "1:941591449824:web:653b65e4f1886cfdf10085"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
